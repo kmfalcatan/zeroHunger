@@ -1,0 +1,754 @@
+.link{
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+    padding: 1.2rem;
+    border-radius: 0.4rem;
+}
+
+.link:hover{
+    background-color: white;
+    color: black;
+}
+
+.link:active{
+    opacity: 0.5;
+}
+
+.container{
+    height: 38.2rem;
+    background-image: url(/0-hunger/picture/photo_6181527210163288580_y.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerContainer{
+    height: 3.5rem;
+    width: 100%;
+    background-color: rgb(86,82,84);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.logoContainer{
+    height: 100%;
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subLogoContainer{
+    height: 100%;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoNameContainer{
+    height: 100%;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 100%;
+    background-color: rgb(255, 187, 0);
+    border-radius: 50%;
+}
+
+.name{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.navBarContianer{
+    height: 100%;
+    width: 55rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.menuIconContainer{
+    height: 100%;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menubarContainer{
+    padding-top: 2px;
+    width: 3.125rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.line{
+    border: solid 0.125rem;
+    width: 1.563rem;
+    margin-bottom: 0.313rem;
+    margin-top: 0.5rem;
+    margin-left: 0.563rem;
+    border-color: white;
+}
+
+.change .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-9px, 0.625rem);
+}
+
+.change .line:nth-child(2) {
+    opacity: 0;
+}
+
+.change .line:nth-child(3) {
+    transform: rotate(45deg) translate(-0.438rem, -0.5rem);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+li{
+    color: white;
+    list-style-type: none;
+    margin-right: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 1.2rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+}
+
+li:hover .link{
+    background-color: white;
+    color: black;
+}
+
+li:active .link{
+    opacity: 0.5;
+}
+
+.titleContainer{
+    height: 18.1rem;
+    width: 100%;
+    position: absolute;
+    top: 17rem;
+}
+
+.lineContainer{
+    height: 100%;
+    width: 2rem;
+    background-color: rgb(172, 122, 28);
+    margin-left: 5rem;
+}
+
+.upContainer{
+    height: 12rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.subTitleContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.title{
+    font-size: 6rem;
+    color: white;
+    font-weight: bold;
+    width: 50rem;
+}
+
+.downContainer{
+    height: 6.2rem;
+    width: 100%;
+}
+
+.paragraph{
+    color: white;
+    width: 50rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    padding-left: 5rem;
+}
+
+.aboutContainer, .feedbackContainer{
+    width: 100%;
+    height: 38.2rem;
+}
+
+.contactContainer{
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(43, 43, 43);
+}
+
+.aboutContainer, .feedbackContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.feedbackContainer{
+    background-image: url(/0-hunger/picture/photo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subAboutContainer{
+    height: 100%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+.paragraphContainer, .imageContainer{
+    height: 35rem;
+    width: 35rem;
+}
+
+
+.imageContainer{
+    box-shadow: -10px 10px 20px;
+    background-image: url(/0-hunger/picture/photo_6181527210163288584_x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 0.4rem rgb(255, 187, 0);
+    border-radius: 0.5rem;
+}
+
+.titleContainer1{
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title1{
+    font-size: 3rem;
+    font-weight: bold;
+    filter: drop-shadow(-4px 1px 0px rgb(255, 187, 0));
+}
+
+.backgroundColor{
+    height: 1.9rem;
+    position: absolute;
+    width: 17.5rem;
+    margin-top: 1.8rem;
+    background-color: rgb(255, 187, 0);
+}
+
+.descriptionContainer{
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.description1{
+    font-size: 1.5rem;
+    width: 25rem;
+}
+
+.imageContainer1{
+    height: 33rem;
+    width: 40rem;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border: solid 0.4rem rgb(255, 187, 0);
+    border-left: none;
+    background-image: url(/0-hunger/picture/photo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pictureContainer1{
+    display: flex;
+    align-items: center;
+}
+
+.messageContainer{
+    height: 35rem;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContainer{
+    height: 14.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.subInputContainer{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    height: 1.9rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+    border: solid 2px rgb(255, 187, 0);
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.input1{
+    height: 0.5rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    border: solid 2px rgb(255, 187, 0);
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.paragraphContainer1{
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.paragraph3{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 20rem;
+    text-align: center;
+}
+
+.paragraphContainer2{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.subContactContainer{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.emailContainer{
+    height: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subEmailContainer, .subEmailContainer1, .subEmailContainer2{
+    height: 100%;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.subEmailContainer1, .subEmailContainer2{
+    border-right: solid 2px gray;
+}
+
+.visitContainer{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.iconContainer{
+    height: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subIconContainer{
+    height: 100%;
+    width: 3rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+.subIconContainer:hover{
+    transform: scale(1.1);
+}
+
+.subIconContainer:active{
+    transform: scale(1);
+}
+
+.icon{
+    height: 2rem;
+}
+
+.sideNavBarContainer{
+    width:  12.5rem;
+    position: absolute;
+    right: -12.5rem;
+    top: 3.5rem;
+    background-color: white;
+    z-index: 1;
+}
+
+.fadeIn{
+    animation: sideIn 0.6s ease forwards
+}
+
+.sideNavBar, .sideNavBar1{
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+    border-bottom: solid 1px black;
+    cursor: pointer;
+}
+
+.profile, .status, .myOrder, .studentShop, .logOut{
+    color: black;
+    text-decoration: none;
+}
+
+@keyframes sideIn {
+    from{
+
+    } to{
+        right: 0px;
+    }
+}
+
+.loginContainer, .loginContainer1, .loginContainer2, .loginContainer3, .loginContainer4{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+
+.loginContainer4{
+    display: block;
+    background-color: red;
+}
+
+.subLoginContainer{
+    height: 25rem;
+    width: 50rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 1rem;
+    border: solid 1px white;
+    margin-left: 15rem;
+    margin-top: 7rem;
+}
+
+.pictureContainer2{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.loginForm{
+    backdrop-filter: blur(10px);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.picturecontainer2{
+    background-image: url(/0-hunger/picture/photo_6174664659878131937_x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.closeContainer{
+    height: 3rem;
+    display: flex;
+    justify-content: right;
+}
+
+.closeIcon, .closeIcon1, .closeIcon3{
+    height: 100%;
+    cursor: pointer;
+}
+
+.subLoginForm{
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.usernameContainer, .passwordContainer{
+    height: 5rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.username{
+    outline: white dashed 1xp;
+    height: 2rem;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.inputContainer{
+    height: 100%;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 100%;
+    height: 2rem;
+    padding-top: 1.5rem;
+}
+
+.registerContainer{
+    height: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    color: rgb(255, 187, 0);
+    cursor: pointer;
+}
+
+.submitContainer{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitBtn, .submitBtn1{
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(86,82,84);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s, transform 0.15s;
+}
+
+.submitBtn2{
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(3, 177, 3);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s, transform 0.15s;
+    margin-right: 0.25rem;
+    transition: transform 0.15s, background-color 0.15s;
+}
+
+.submitBtn3{
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(138, 2, 2);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s, transform 0.15s;
+    margin-left: 0.25rem;
+    transition: transform 0.15s, background-color 0.15s;
+}
+
+.submitBtn2:hover{
+    transform: scale(1.1);
+    background-color: rgb(7, 109, 7);
+}
+
+.submitBtn2:active{
+    transform: scale(1);
+    background-color: rgb(3, 177, 3);
+}
+
+.submitBtn3:hover{
+    transform: scale(1.1);
+    background-color: rgb(92, 8, 8);
+}
+
+.submitBtn3:active{
+    transform: scale(1);
+    background-color: rgb(138, 2, 2);
+}
+.submitBtn:hover{
+    background-color: rgb(208,207,207);
+    color: black;
+    transform: scale(1.1);
+}
+
+.submitBtn:active{
+    transform: scale(1);
+    background-color: rgb(86,82,84);
+    color: white;
+}
+
+.submitBtn1:hover{
+    background-color: rgb(208,207,207);
+    color: black;
+    transform: scale(1.1);
+}
+
+.submitBtn1:active{
+    transform: scale(1);
+    background-color: rgb(86,82,84);
+    color: white;
+}
+
+.requestContainer{
+    height: 23rem;
+    width: 25rem;
+    margin-left: 28rem;
+    margin-top: 8rem;
+    border-radius: 0.4rem;
+    background-color: rgb(255, 187, 0);
+}
+
+.logoContainer1{
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodContainer{
+    height: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.subFoodContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.check{
+    height: 1rem;
+    width: 1rem;
+    border: none;
+}
+
+.nameOfFood{
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.input2{
+    width: 3.1rem;
+    margin-left: 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.closeIcon2{
+    cursor: pointer;
+}
+
+.errorContainer{
+    position: absolute;
+    top: 3.5rem;
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.login{
+    text-decoration: none;
+    color: black;
+}

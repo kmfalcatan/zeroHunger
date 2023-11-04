@@ -1,0 +1,119 @@
+.container1{
+  height: 38.2rem;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statusOrderContainer{
+  height: 27rem;
+  width: 50rem;
+}
+
+.searchBarContainer{
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar{
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 2rem;
+  border: solid 1px rgb(131, 131, 131, 0.5);
+  padding-left: 1rem;
+}
+
+.subStatusOrderContainer{
+  height: 27rem;
+  background-color: white;
+  overflow-x: hidden;
+  overflow-y: auto; 
+  border: solid 1px rgb(131, 131, 131, 0.5);
+}
+
+table, th, tr, td{
+  border-collapse: collapse;
+  border: solid 1px rgb(131, 131, 131, 0.5);
+}
+
+table{
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+th{
+  background-color: rgb(237,242,244);
+  height: 3rem;
+}
+
+.checkBox{
+  height: 1.5rem;
+}
+
+td{
+  text-align: center;
+}
+
+.row2{
+  height: 2rem;
+}
+
+.btn1, .btn2{
+  height: 2rem;
+  width: 5rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s, transform 0.15s;
+}
+
+.btn1{
+  background-color: lightgreen;
+}
+
+.btn1:hover{
+  background-color: rgb(3, 177, 3);
+  color: white;
+}
+
+.btn1:active{
+  transform: scale(0.9);
+}
+
+.btn2{
+  background-color: red;
+}
+
+.btn2:hover{
+  background-color: rgb(138, 2, 2);
+  color: white;
+}
+
+.btn2:active{
+  transform: scale(0.9);
+}
+
+.td1{
+  cursor: pointer;
+  text-align: center;
+}
+
+.backContainer{
+  height: 2rem;
+  width: 100%;
+  top: 3.8rem;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.back{
+  height: 2rem;
+  width: 4rem;
+  cursor: pointer;
+}
